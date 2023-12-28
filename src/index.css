@@ -12,3 +12,27 @@ body {
   font-size: 10px;
   aspect-ratio: 1;
 }
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 0.8em;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  border-color: #ddd;
+  margin: 3px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
