@@ -70,7 +70,6 @@ function GridView() {
       <button onClick={() => setIsChangingEndNode(true)}>Change End</button>
       <br />
       <button onClick={() => restart(grid, setGrid)}>Restart</button>
-      <br />
       <button onClick={() => processOneStep(grid, setGrid)}>Step</button>
       <button onClick={() => solve(grid, setGrid)}>Solve</button>
       <br />
